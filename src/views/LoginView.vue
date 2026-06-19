@@ -22,7 +22,7 @@ const submit = async () => {
     )
 
     authStore.saveToken(
-      data.access_token
+      data.token
     )
 
     const redirectTo = route.query.redirect
