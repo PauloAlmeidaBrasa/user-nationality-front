@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { login } from '../api/auth'
+import { login } from '../api/nationality-api/auth'
 import { useAuthStore } from '../stores/auth'
 import { useRoute, useRouter } from 'vue-router'
 
